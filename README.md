@@ -7,10 +7,10 @@ Sample to Build Pipelines with Open-Shift
 ## Setup project and jenkins
 
 
-    oc new-project dev
-    oc new-project qa
-    oc new-project ci-cd
-    oc new-app jenkins-ephemeral -n ci-cd
+    oc new-project rcherara-dev
+    oc new-project rcherara-qa
+    oc new-project rcherara-cicd-ms
+    oc new-app jenkins-ephemeral -n rcherara-cicd-ms 
 
 
 1. MBP-de-REDDAH:~ rcherara$ oc new-project rcherara-dev
